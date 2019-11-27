@@ -58,7 +58,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: relative;
     /* bottom: 50px; */
-    margin-top:90%;
+    margin-top:30%;
     margin-left: 40%;
 }
 
@@ -72,7 +72,7 @@ html, body{
     padding: 15px 20px;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    position: fixed;
+    position: relative;
     margin-top:10%;
     margin-left: 60%;
 }
