@@ -63,6 +63,7 @@ html, body{
     /* bottom: 50px; */
     margin-top:40%;
     border-radius: 10px;
+    border-color: transparent;
 }
 
 #comment--button{
@@ -79,7 +80,7 @@ html, body{
     position: fixed;
     /* margin-top: -8%; */
     margin-top: 52%;
-    margin-left: 65%;
+    margin-left: 68%;
 }
 
 .taken{
