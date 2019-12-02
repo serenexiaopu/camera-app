@@ -60,8 +60,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed;
     /* bottom: 50px; */
-    margin-top:60%;
-    margin-left: 10%;
+    margin-top:40%;
     border-radius: 10px;
 }
 
@@ -78,8 +77,8 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(228, 102, 102, 0.2);
     position: fixed;
     /* margin-top: -8%; */
-    margin-top: 70%;
-    margin-left: 80%;
+    margin-top: 50%;
+    margin-left: 60%;
 }
 
 .taken{
