@@ -23,6 +23,11 @@ function cameraStart() {
         });
 }
 
+function display()
+{
+    document.getElementById('demo').style.color = '#FF0000';
+}
+
 commentSubmit.onclick = function() {
     var x = document.getElementById("comment--input").value;
     var element = document.createElement("p");
