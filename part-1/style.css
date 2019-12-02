@@ -59,9 +59,9 @@ html, body{
     padding: 15px 20px;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    position: fixed;
+    position: absolute;
     /* bottom: 50px; */
-    margin-top:40%;
+    
     border-radius: 10px;
     border-color: transparent;
 }
@@ -77,9 +77,9 @@ html, body{
     padding: 10px 15px;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(228, 102, 102, 0.2);
-    position: fixed;
+    position: absolute;
     /* margin-top: -8%; */
-    margin-top: 52%;
+    
     margin-left: 68%;
 }
 
@@ -94,10 +94,10 @@ html, body{
     z-index: 2;
 }
 #containerInput{
-  margin-top: 50%;
+  margin-top: 300px;
   width:100%;
   height:10% ;
-  position: fixed;
+  position: absolute;
 }
 
 #float1{
