@@ -58,7 +58,7 @@ html, body{
     padding: 15px 20px;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    position: relative;
+    position: fixed;
     /* bottom: 50px; */
     margin-top:60%;
     margin-left: 10%;
@@ -76,10 +76,10 @@ html, body{
     padding: 10px 15px;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(228, 102, 102, 0.2);
-    position: relative;
+    position: fixed;
     /* margin-top: -8%; */
-    margin-bottom: 3%;
-    margin-left: 71%;
+    margin-top: 70%;
+    margin-left: 80%;
 }
 
 .taken{
