@@ -23,16 +23,14 @@ function cameraStart() {
         });
 }
 
-function display()
-{
-    document.getElementById('demo').style.color = '#FF0000';
-}
+
 
 commentSubmit.onclick = function() {
     var x = document.getElementById("comment--input").value;
     var element = document.createElement("p");
     element.innerHTML = x;
     document.getElementById("bullets").appendChild(element);
+    element.setAttribute("id", "text");
 }
 
 // Take a picture when cameraTrigger is tapped

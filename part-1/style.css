@@ -173,4 +173,25 @@ color: yellow;
       font-size: 16px;
       margin: 1px;
   }
+  #text{
+      color: yellowgreen;
+      position: relative;
+      -webkit-animation: mymove2 10s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove2 10s infinite;
+
+  }
+
+  @-webkit-keyframes mymove2 {
+    from {left: 0px;}
+    {left: 100px;}
+   to {left: 800px;}
+  }
+  
+  @keyframes mymove2 {
+    from {left: 0px;}
+    {left: 50px;}
+     {left: 100px;}
+      to {left: 800px;}
+  }
  
+  
