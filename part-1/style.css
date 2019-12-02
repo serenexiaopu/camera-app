@@ -113,8 +113,7 @@ html, body{
 
 #float3{
     background-color: lightsalmon;
-    padding: 2%;
-    width: 800px;
+    padding: 3px;
     animation-name: floating;
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -131,7 +130,7 @@ html, body{
 }
 
 #float5{
-
+color: yellow;
     position: relative;
     -webkit-animation: mymove 6s infinite; /* Safari 4.0 - 8.0 */
   animation: mymove 3s infinite;
@@ -159,4 +158,5 @@ html, body{
   }
   .floating{
       font-size: 16px;
+      margin: 1px;
   }
