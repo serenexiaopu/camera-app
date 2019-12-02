@@ -25,7 +25,7 @@ function cameraStart() {
 
 commentSubmit.onclick = function() {
     var x = document.getElementById("comment--input").value;
-    var element = document.createElement("button");
+    var element = document.createElement("p");
     element.innerHTML = x;
     document.getElementById("bullets").appendChild(element);
 }
