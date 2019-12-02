@@ -37,7 +37,7 @@ html, body{
     flex-direction: row;
     flex-wrap: wrap;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     padding: 15px 20px;
     text-align: center;
     position: relative;
@@ -158,5 +158,5 @@ html, body{
     to {left: 600px;}
   }
   .floating{
-      font-size: 20px;
+      font-size: 16px;
   }
