@@ -76,7 +76,8 @@ html, body{
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(228, 102, 102, 0.2);
     position: relative;
-    margin-top: -8%;
+    /* margin-top: -8%; */
+    margin-bottom: 3%;
     margin-left: 71%;
 }
 
