@@ -111,7 +111,7 @@ html, body{
     flex-wrap: wrap;
     position: relative;
     margin-left: 0;
-    padding: 0;
+    padding: 10px;
     
 }
 
@@ -127,4 +127,6 @@ position: absolute;
     margin-left:0px;
     padding: 0;
 }
-
+.cell{
+    margin: 10px;
+}

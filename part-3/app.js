@@ -13,7 +13,7 @@ $(function () {
     $('#draggable11').draggable();
     $('#draggable12').draggable();
     $('#draggable13').draggable();
-    $('#draggable14').draggable();
+
 
     // ({
 
