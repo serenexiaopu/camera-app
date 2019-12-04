@@ -1,5 +1,32 @@
+//drag
+$(function () {
+    $("#draggable1").draggable();
+    $("#draggable2").draggable();
+    $('#draggable .item').draggable({
+
+        // enable multiple draggable
+        multiple: true,
+      
+        // shows clone helper
+        cloneHelper: false,
+      
+        // selected element
+        selected: '.selected',
+      
+        // snaps to .selector
+        snap: '.selector',
+      
+        // before start
+        beforeStart: function(){}
+        
+      });
+});
+
+
+
+
 // Set constraints for the video stream
-var constraints = { video: { facingMode: "user" }, audio: false };
+var constraints = { video: { facingMode: "environment" }, audio: false };
 var track = null;
 
 // Define constants
@@ -39,3 +66,4 @@ cameraTrigger.onclick = function() {
 
 // Start the video stream when the window loads
 window.addEventListener("load", cameraStart, false);
+

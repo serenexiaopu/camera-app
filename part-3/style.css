@@ -60,6 +60,7 @@ html, body{
     /* bottom: 50px; */
     margin-top: 45%;
     margin-left: 40%;
+    display: none;
 }
 
 #comment--button{
@@ -75,6 +76,7 @@ html, body{
     position: fixed;
     bottom: 50px;
     left: calc(50% + 200px);
+    display: none;
 }
 
 .taken{
@@ -86,4 +88,34 @@ html, body{
     top: 20px;
     right: 20px;
     z-index: 2;
+}
+
+body {
+    background: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#draggable {
+        width: 150px;
+        height: 150px;
+        padding: 0.5em;
+        background-color: transparent;
+        border:0;
+    }
+
+    
+.ui-draggable-container {
+    position: absolute;
+    outline: 1px dashed #cccccc;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
+.ui-draggable-clone {
+	visibility: visible !important;
+}
+
+.ui-draggable-hidden {
+	visibility: hidden;
 }
