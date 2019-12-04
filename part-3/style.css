@@ -76,12 +76,9 @@ html, body{
     top: 20px;
     right: 20px;
     z-index: 2;
+    margin:0;
 }
 
-body {
- 
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 /* 
 #draggable {
         width: 150px;
