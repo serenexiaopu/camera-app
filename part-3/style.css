@@ -12,6 +12,7 @@ html, body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    padding: 0%;
 }
 
 #camera--view, #camera--sensor, #camera--output{
@@ -117,7 +118,7 @@ html, body{
 #framebig{
 display: block;
 width: 100%;
-padding: 0;
+padding: 0%;
 }
 #static{
 position: absolute;
