@@ -2,24 +2,30 @@
 $(function () {
     $("#draggable1").draggable();
     $("#draggable2").draggable();
-    $('#draggable .item').draggable({
+    $("#draggable4").draggable();
+    $('#draggable3').draggable();
+    $('#draggable5').draggable();
+    $('#draggable6').draggable();
+    $('#draggable7').draggable();
 
-        // enable multiple draggable
-        multiple: true,
+    // ({
+
+    //     // enable multiple draggable
+    //     multiple: true,
       
-        // shows clone helper
-        cloneHelper: false,
+    //     // shows clone helper
+    //     cloneHelper: false,
       
-        // selected element
-        selected: '.selected',
+    //     // selected element
+    //     selected: '.selected',
       
-        // snaps to .selector
-        snap: '.selector',
+    //     // snaps to .selector
+    //     snap: '.selector',
       
-        // before start
-        beforeStart: function(){}
+    //     // before start
+    //     beforeStart: function(){}
         
-      });
+    //   });
 });
 
 
