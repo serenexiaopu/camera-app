@@ -6,7 +6,7 @@ html, body{
 }
 
 #camera, #camera--view, #camera--sensor, #camera--output{
-    position: fixed;
+    position:relative;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -119,8 +119,14 @@ body {
 .ui-draggable-hidden {
 	visibility: hidden;
 }
-
-#draggeable2{
-    transform: scaleX(1);
+#draggable{
+    width: 100%;
+    flex-shrink: 0;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    
 }
 
+ 
