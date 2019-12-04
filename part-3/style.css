@@ -109,17 +109,21 @@ html, body{
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
+    margin-left: 0;
+    padding: 0;
     
 }
 
 #framebig{
 display: block;
 width: 100%;
-
+padding: 0;
 }
 #static{
 position: absolute;
     margin-top: -94px;
     width: 200px;
-    margin-left: 3px;
+    margin-left:0px;
+    padding: 0;
 }
+
