@@ -13,6 +13,17 @@ $(function () {
     $('#draggable11').draggable();
     $('#draggable12').draggable();
     $('#draggable13').draggable();
+    $('#draggable14').draggable();
+    $('#draggable15').draggable();
+
+    $('#draggable16').draggable();
+
+    $('#draggable17').draggable();
+
+    $('#draggable18').draggable();
+
+    $('#draggable19').draggable();
+
 
 
     // ({
