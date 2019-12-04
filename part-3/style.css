@@ -101,7 +101,8 @@ html, body{
     position: relative;
     margin-left: 0;
     padding: 10px;
-
+    left: 0px!important;
+    top: 50px!important;
 }
 
 #framebig{
@@ -118,6 +119,5 @@ position: absolute;
 }
 .cell{
     margin: 10px;
-    left: -50px!important;
-    top: 50px!important;
+ 
 }
