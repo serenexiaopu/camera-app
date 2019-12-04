@@ -122,9 +122,9 @@ padding: 0%;
 }
 #static{
 position: absolute;
-    margin-top: -94px;
+    margin-top: -80px;
     width: 200px;
-    margin-left:0px;
+    margin-left:-10px;
     padding: 0;
 }
 .cell{
