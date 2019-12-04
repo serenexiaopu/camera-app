@@ -135,10 +135,9 @@ display: block;
 width: 100%;
 
 }
-p{
-    color: aqua;
-    position: fixed;
-     margin-top: 50%;
-    
-
+#static{
+position: absolute;
+    margin-top: -94px;
+    width: 200px;
+    margin-left: 3px;
 }
