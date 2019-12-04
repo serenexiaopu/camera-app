@@ -3,23 +3,28 @@ html, body{
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: lightcoral;
 }
 
 #camera, #camera--view, #camera--sensor, #camera--output{
-    position:relative;
+    margin: 0;
+    position: relative;
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
 #camera--view, #camera--sensor, #camera--output{
+    margin: 0;
     transform: scaleX(1);
     filter: FlipH;
 }
 
 #camera--trigger{
+    margin: 0;
     /* width: 200px; */
     background-color: transparent;
+    display: none;
     /* color: white; */
     /* font-size: 16px;
     border-radius: 30px;
@@ -49,7 +54,7 @@ html, body{
 }
 
 #comment--input{
-    width:50%;
+    width:100%;
     background-color: white;
     color: black;
     font-size: 16px;
@@ -58,8 +63,6 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: relative;
     /* bottom: 50px; */
-    margin-top: 45%;
-    margin-left: 40%;
     display: none;
 }
 
@@ -94,22 +97,20 @@ body {
     background: #fff;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
+/* 
 #draggable {
         width: 150px;
         height: 150px;
         padding: 0.5em;
         background-color: transparent;
         border:0;
-    }
+    } */
 
     
 .ui-draggable-container {
     position: absolute;
-    outline: 1px dashed #cccccc;
-    background-color: rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 
 .ui-draggable-clone {
@@ -120,7 +121,7 @@ body {
 	visibility: hidden;
 }
 #draggable{
-    width: 100%;
+    width: 80%;
     flex-shrink: 0;
     display: block;
     flex-direction: row;
@@ -129,4 +130,15 @@ body {
     
 }
 
- 
+#framebig{
+display: block;
+width: 100%;
+
+}
+p{
+    color: aqua;
+    position: fixed;
+     margin-top: 50%;
+    
+
+}
