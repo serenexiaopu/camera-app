@@ -4,6 +4,7 @@ html, body{
   height: 100%;
   width: 100%;
   background-color: lightcoral;
+  display: inline !important;
 }
 
 #camera, #camera--view, #camera--sensor, #camera--output{
@@ -90,19 +91,7 @@ html, body{
     } */
 
     
-.ui-draggable-container {
-    position: absolute;
-    box-sizing: border-box;
-    /* opacity: 0.9; */
-}
 
-.ui-draggable-clone {
-	visibility: visible !important;
-}
-
-.ui-draggable-hidden {
-	visibility: hidden;
-}
 #draggable{
     width: 80%;
     flex-shrink: 0;
@@ -112,7 +101,7 @@ html, body{
     position: relative;
     margin-left: 0;
     padding: 10px;
-    
+
 }
 
 #framebig{
@@ -129,4 +118,6 @@ position: absolute;
 }
 .cell{
     margin: 10px;
+    left: -50px!important;
+    top: 50px!important;
 }
